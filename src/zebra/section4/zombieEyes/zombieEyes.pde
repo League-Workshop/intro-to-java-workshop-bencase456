@@ -6,7 +6,7 @@ void setup(){
   
   // 2. Run your program.  Is the face stretched?
   // Fix the numbers below so the face looks good
-  size(200, 600);
+  size(600, 600);
   
   face.resize(width,height);
   background(face);
@@ -17,11 +17,11 @@ void draw() {
   // 4. Give the eyes a color by using fill(red, green, blue);
   // (use numbers in place of red, green, blue)
   // Example: fill(255, 10, 200);
-  
+  fill(255, 10, 200);
   // 3. Use circle(x, y, size) to put two BIG eyes on the face
   // Example: circle(100, 50, 80);
- 
-  
+ circle(100, 50, 80);
+  circle(100, 50, 80);
   // 5. Use mouseX and mouseY to change the color of the irises when the mouse moves
   // hint: mouseX is a int variable, so you can use it anywhere you're using a number
   // hint: you will be changing the fill command you wrote in step 4
